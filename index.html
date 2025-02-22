@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manglam Awning </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link src="script.js"></script>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-black">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="FinLogo.jpg" alt="Logo" width="100">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Our Services
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                            <li><a class="dropdown-item" href="#">Awning Suppler</a></li>
+                            <li><a class="dropdown-item" href="#">Awning Washing </a></li>
+                            <li><a class="dropdown-item" href="#">Tensile Suppler</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Our Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-none d-md-block">
+                <a href="#" class="btn btn-primary">Enquiry</a>
+            </div>
+        </div>
+    </nav>
+    <!--Header-->
+    <header>
+        <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" style="background-image: url('Hero1.jpeg');">
+                    <div class="carousel-caption">
+                        <h1 class="fw-bold">Muskegon Awning </h1>
+                        <p>Commercial And Residential Awning <br></p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+                <div class="carousel-item" style="background-image: url('victorian-awning-depot-1.png');">
+                    <div class="carousel-caption">
+                        <h1 class="fw-bold">Innovative Awning </h1>
+                        <p>Bringing technology and creativity together.<br>Let's build something great.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+                <div class="carousel-item" style="background-image: url('best-retractable-patio-awnings.webp');">
+                    <div class="carousel-caption">
+                        <h1 class="fw-bold">Creative Vision , Our Mission</h1>
+                        <p>Partner with us for outstanding results.<br>Join us in our journey.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+    <!--About Us-->
+    <section class="container my-5">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h2>About Us</h2>
+                <ul class="nav nav-tabs" id="aboutTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="company-tab" data-bs-toggle="tab" data-bs-target="#company" type="button" role="tab">Our Company</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="mission-tab" data-bs-toggle="tab" data-bs-target="#mission" type="button" role="tab">Our Mission</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="vision-tab" data-bs-toggle="tab" data-bs-target="#vision" type="button" role="tab">Our Vision</button>
+                    </li>
+                </ul>
+                <div class="tab-content mt-3" id="aboutTabContent">
+                    <div class="tab-pane fade show active" id="company" role="tabpanel">
+                        <h3>Our Company</h3>
+                        <p>Welcome to Manglam Awning , where innovation meets craftsmanship in the world of shade solutions. 
+                            With a passion for creating functional and aesthetically pleasing spaces, we specialize in designing, manufacturing, 
+                            and installing a diverse range of awnings and tensile structures that enhance the beauty and comfort of your environment.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                    <div class="tab-pane fade" id="mission" role="tabpanel">
+                        <h3>Our Journey</h3>
+                        <p>Founded in [2017], Manglam Awning began with a vision to transform outdoor spaces into comfortable, stylish retreats. 
+                            Our journey started with a small team of dedicated professionals who shared a common goal: to provide high-quality,
+                            customizable shade solutions that cater to the unique needs of our clients. 
+                            Over the years, we have grown into a reputable name in the industry, 
+                            known for our commitment to excellence and customer satisfaction.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                    <div class="tab-pane fade" id="vision" role="tabpanel">
+                        <h3>Our Vision</h3>
+                        <p>Our vision is to continue being a leader in the shade solutions industry by consistently providing innovative,
+                            high-quality products and exceptional customer service. We strive to create outdoor spaces that inspire and delight, 
+                            enhancing the quality of life for our clients and their communities.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="About.jpeg" class="img-fluid" alt="About Us Image">
+            </div>
+        </div>
+    </section>
+    <!--Our Services-->
+    <div class="container py-5">
+        <h2 class="text-center mb-3">Our Services</h2>
+        <p class="text-center mx-auto w-75">We offer a range of high-quality services to cater to your needs. Our expert team ensures top-notch solutions tailored just for you.</p>
+        
+        <div class="row mt-4">
+            <!-- Service 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card text-center p-4">
+                    <i class="fas fa-cogs fa-3x mb-3"></i>
+                    <h4>Retractable Awning</h4>
+                    <p>Experience the ultimate flexibility with our retractable awnings. 
+                        Perfect for patios, balconies, and outdoor dining areas, these awnings can be easily extended or retracted to provide shade
+                        as needed. Our retractable awnings are available in manual and motorized options, ensuring convenience and ease of use.</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+            
+            <!-- Service 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card text-center p-4">
+                    <i class="fas fa-chart-line fa-3x mb-3"></i>
+                    <h4>Tensile Structures</h4>
+                    <p> Our tensile structures are a blend of art and engineering, creating stunning, modern spaces that are both functional and aesthetically pleasing. 
+                        These structures are ideal for large outdoor areas, such as parks, sports facilities, 
+                        and commercial spaces, offering a unique and stylish shade solution.</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+            
+            <!-- Service 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card text-center p-4">
+                    <i class="fas fa-laptop-code fa-3x mb-3"></i>
+                    <h4>Fixed Awnings</h4>
+                    <p> For those seeking a long-lasting shade solution, our permanent awnings are the perfect choice. 
+                        Built with durable materials and expert craftsmanship, these awnings provide continuous protection and add a touch
+                        of sophistication to any space.</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <!-- Service 4 -->
+            <div class="col-md-4 mb-4">
+                <div class="card text-center p-4">
+                    <i class="fas fa-bullhorn fa-3x mb-3"></i>
+                    <h4>Window Awnings</h4>
+                    <p>Our window awnings are crafted to add a touch of elegance to your windows while providing effective protection from 
+                        the sun and rain. Available in various styles and materials, our window awnings are both functional and visually appealing.</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+            
+            <!-- Service 5 -->
+            <div class="col-md-4 mb-4">
+                <div class="card text-center p-4">
+                    <i class="fas fa-user-shield fa-3x mb-3"></i>
+                    <h4>Vertical Awnings</h4>
+                    <p>These drop down vertically to provide side shade and privacy, often used on balconies and verandas. Available in various styles and materials, 
+                        our window awnings are both functional and visually appealing.</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+            
+            <!-- Service 6 -->
+            <div class="col-md-4 mb-4">
+                <div class="card text-center p-4">
+                    <i class="fas fa-cloud fa-3x mb-3"></i>
+                    <h4>Freestanding Awnings</h4>
+                    <p>These are independent structures that can be placed anywhere, offering versatile outdoor coverage.Available in various styles and materials, our window awnings are both functional and visually appealing.</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Our Projects-->
+    <div class="container py-5">
+        <h2 class="text-center mb-4">Our Projects</h2>
+        <ul class="nav nav-tabs justify-content-center mb-4" id="projectTabs">
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#branding">Products</a>
+            </li>
+        </ul> 
+        
+        <div class="tab-content">
+            <div class="tab-pane fade show active" id="all">
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="project-img">
+                            <img src="image1.jpg" alt="Project 1">
+                            <div class="overlay">Project 1</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="project-img">
+                            <img src="image2.jpg" alt="Project 2">
+                            <div class="overlay">Project 2</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="project-img">
+                            <img src="image3.jpg" alt="Project 3">
+                            <div class="overlay">Project 3</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="project-img">
+                            <img src="image4.jpg" alt="Project 4">
+                            <div class="overlay">Project 4</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="project-img">
+                            <img src="image5.jpg" alt="Project 5">
+                            <div class="overlay">Project 5</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="project-img">
+                            <img src="image6.jpg" alt="Project 6">
+                            <div class="overlay">Project 6</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Contact Us-->
+    <section class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="mb-4">Get in Touch</h2>
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Your Name</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Your Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Your Message</label>
+                            <textarea class="form-control" id="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <h2 class="mb-4">Find Us</h2>
+                    <div class="ratio ratio-16x9">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093775!2d144.95373631550468!3d-37.81627944202181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d5df0f0f0f%3A0x1d4f32817b1e6f15!2sMelbourne!5e0!3m2!1sen!2sau!4v1625564699243!5m2!1sen!2sau" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Footer-->
+    <footer>
+        <!-- <a href="https://www.whatsapp.com" target="_blank">WhatsApp</a> -->
+        <!-- <a href="https://www.facebook.com" target="_blank">Facebook</a> -->
+        <a href="https://www.instagram.com" target="_blank">Instagram</a>
+        <a href="mailto:your-mangalamawning@gmail.com">Gmail</a>
+        <a href="tel:+91 6306605410 "> Call US </a>
+        <p>Address: S.No-113 BHAGPADA FATHERWADI NR; MAMA HOUSE GOKHIWARE 401202</p>
+    </footer>
+</body>
+</html>
